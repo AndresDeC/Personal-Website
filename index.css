@@ -24,11 +24,12 @@ section {
 
 #index-1 {
     background-color: #3f3f3f;
+    height: 200vh;
 }
 
 #index-2 {
     background-color: #4d4d4d;
-    padding: 0px;
+    height: 200vh;
 }
 
 nav {
