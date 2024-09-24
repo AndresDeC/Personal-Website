@@ -1,0 +1,56 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos generales para secciones */
+section {
+    height: 100vh; /* Cada sección ocupa el 100% de la altura de la ventana */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Diferentes colores para cada sección */
+#intro {
+    background-color: #f0f0f0;
+}
+
+#index-1 {
+    background-color: #e0e0f8;
+}
+
+/* Estilos del menú de navegación */
+nav {
+    position: fixed; /* Menú fijo en la parte superior */
+    top: 0;
+    width: 100%;
+    background: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background: #555;
+}
