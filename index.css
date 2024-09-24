@@ -8,7 +8,7 @@ body, html {
 /* Estilos generales para secciones */
 section {
     height: 100vh; /* Cada sección ocupa el 100% de la altura de la ventana */
-    padding: 20px;
+    padding: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
