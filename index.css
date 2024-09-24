@@ -17,11 +17,15 @@ section {
 
 /* Diferentes colores para cada sección */
 #intro {
-    background-color: #f0f0f0;
+    background-color: #000000;
 }
 
 #index-1 {
-    background-color: #e0e0f8;
+    background-color: #bdbdff;
+}
+
+#index-2 {
+    background-color: #909090;
 }
 
 /* Estilos del menú de navegación */
