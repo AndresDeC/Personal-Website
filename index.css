@@ -5,6 +5,11 @@ body, html {
     font-family: Arial, sans-serif;
 }
 
+/* Ajustar la primera sección para que no quede oculta por la navegación */
+.modulo2 {
+    padding-top: 80px; /* Ajustar según la altura del menú de navegación */
+}
+
 /* Estilos generales para secciones */
 section {
     height: 100vh; /* Cada sección ocupa el 100% de la altura de la ventana */
@@ -16,10 +21,6 @@ section {
 }
 
 /* Diferentes colores para cada sección */
-#intro {
-    background-color: #000000;
-}
-
 #index-1 {
     background-color: #bdbdff;
 }
@@ -34,6 +35,7 @@ nav {
     top: 0;
     width: 100%;
     background: #333;
+    z-index: 1000; /* Asegura que el menú esté encima del contenido */
 }
 
 nav ul {
