@@ -1,0 +1,108 @@
+/* Definimos un esquema de colores principal */
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #333;
+    --background-color: #f9f9f9;
+    --text-color: #555;
+    --accent-color: #FFC107;
+    --link-color: #1a73e8;
+    --border-color: #ddd;
+}
+
+/* General settings */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: var(--secondary-color);
+}
+
+/* Estilo del nav - centrado, moderno, y con un fondo claro */
+#nav {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.Navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.Navigation li {
+    margin: 0 20px;
+}
+
+.Navigation a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: bold;
+    padding: 15px 0;
+    transition: color 0.3s ease;
+}
+
+.Navigation a:hover {
+    color: var(--primary-color);
+}
+
+/* Diseño para el contenedor de cada post */
+.Post {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease;
+}
+
+.Post:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos de los posts */
+.Post h2 {
+    margin-top: 0;
+    color: var(--primary-color);
+}
+
+/* Estilo del texto */
+.Post p {
+    color: var(--text-color);
+    font-size: 1.1em;
+    line-height: 1.7;
+}
+
+/* Estilos generales para enlaces dentro del contenido */
+.Post a {
+    color: var(--link-color);
+    text-decoration: underline;
+}
+
+.Post a:hover {
+    color: var(--accent-color);
+}
+
+/* Ajustes de responsividad */
+@media (max-width: 768px) {
+    .Navigation ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    .Post {
+        margin: 15px;
+        padding: 15px;
+    }
+}
