@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
+    <meta charset="UTF-8">
     <title>Andrés Deandar</title>
     <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="modulo1" id="nav">
+
+    <header id="nav">
       <nav class="Navigation">
         <ul>
           <li><a href="#">Inicio</a></li>
@@ -15,16 +18,23 @@
           <li><a href="/Blog/Blog.html">Blog</a></li>
         </ul>
       </nav>
-    </div>
-    <div class="modulo2" id="index-1">
-      <h1>Andrés Deandar</h1>
-      <p>Estudiante en sistemas, desarrollador en areas web y Python</p>
-      <div id="index-2">
-        <h2>¿Qué busco en este stio web?</h2>
-        <p>Busco poder crear una imagen como desarrollador y poder promover mis proyectos y empresas, otra meta importante que tengo es en inspirar a personas en latinoamérica a meterse en la tecnología de software en cualquiera de las áreas que existen en la industria, usare mi blog para promover la industria y recomendar como aprender las tecnologías en cuestión.</p>
-        <p></p>
+    </header>
+
+    <section id="hero">
+      <div class="hero-text">
+        <h1>Hola, soy <span>Andrés Deandar</span></h1>
+        <h2>Desarrollador web y apasionado por Python</h2>
+        <p class="hero-description">Construyo soluciones web innovadoras y comparto mi pasión por la tecnología para inspirar a las personas a entrar en este increíble mundo del software.</p>
+        <a href="#about" class="btn-primary">Conóceme más</a>
       </div>
-    </div>
+    </section>
+
+    <section id="about" class="container">
+      <h2>¿Quién soy?</h2>
+      <p>Soy un estudiante de sistemas y desarrollador con experiencia en proyectos web y Python. Mi misión es crear soluciones que impacten y compartir mi conocimiento para inspirar a otros en Latinoamérica a unirse al mundo de la tecnología. Creo firmemente en el poder de la educación y la colaboración para transformar vidas.</p>
+      <a href="/Projects/Proyectos.html" class="btn-secondary">Ver Proyectos</a>
+    </section>
+
     <script src="index.js"></script>
   </body>
 </html>
