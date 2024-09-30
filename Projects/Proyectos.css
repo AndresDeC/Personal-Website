@@ -98,3 +98,13 @@
     }
   }
   
+  .post-header h1 a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .post-header h1 a:hover {
+    color: var(--accent-color);
+  }
+  
