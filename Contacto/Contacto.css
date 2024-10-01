@@ -1,0 +1,123 @@
+/* Colores base */
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #1a1a1a;
+    --text-color: #f0f0f0;
+    --accent-color: #FFC107;
+    --button-color: #1a73e8;
+  }
+  
+  /* Estilos generales */
+  body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    line-height: 1.6;
+  }
+  
+  /* Barra de navegación */
+  #nav {
+    background-color: #121212;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .Navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Navigation li {
+    margin: 0 15px;
+  }
+  
+  .Navigation a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+    padding: 10px 0;
+    transition: color 0.3s;
+  }
+  
+  .Navigation a:hover {
+    color: var(--primary-color);
+  }
+  
+  /* Sección de presentación (Hero) */
+  #hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('hero-background.jpg') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-text h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  .hero-text p {
+    font-size: 1.5em;
+    margin: 20px 0;
+  }
+  
+  .btn-primary {
+    background-color: var(--button-color);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--accent-color);
+  }
+  
+  /* Sección de objetivos */
+  .container {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+  }
+  
+  p {
+    font-size: 1.2em;
+  }
+  
+  /* Responsivo */
+  @media (max-width: 768px) {
+    .Navigation ul {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .hero-text h1 {
+      font-size: 2.5em;
+    }
+  
+    .hero-text p {
+      font-size: 1.2em;
+    }
+  
+    .btn-primary {
+      padding: 10px 20px;
+    }
+  }
+  
