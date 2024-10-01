@@ -134,15 +134,16 @@ button:hover {
 }
 
 /* Blog Links */
-.post-header h1 a {
-  color: var(--button-color);
+.Contacto p a {
+  color: var(--text-color);
   text-decoration: none;
   transition: color 0.3s;
 }
 
-.post-header h1 a:hover {
+.Contacto p a:hover {
   color: var(--primary-color);
 }
+
 
 /* Responsivo */
 @media (max-width: 768px) {
