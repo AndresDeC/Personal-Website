@@ -20,17 +20,35 @@ window.onclick = function(event) {
   }
 }
 
-// Validación simple del formulario
+// Manejo del envío del formulario
 document.getElementById('contactForm').addEventListener('submit', function(event) {
+  event.preventDefault(); // Prevenir el comportamiento por defecto
+
   let name = document.getElementById('name').value;
   let email = document.getElementById('email').value;
   let message = document.getElementById('message').value;
 
+  // Validación simple del formulario
   if (!name || !email || !message) {
     alert('Por favor, completa todos los campos.');
-    event.preventDefault(); // Prevenir envío
   } else {
-    alert('Formulario enviado correctamente.');
-    modal.style.display = "none"; // Cerrar modal después de enviar
+    // Enviar el formulario usando fetch a Formspree
+    fetch('https://formspree.io/f/xxxxxx', {
+      method: 'POST',
+      body: new FormData(document.getElementById('contactForm')),
+      headers: {
+        'Accept': 'application/json'
+      }
+    }).then(response => {
+      if (response.ok) {
+        alert('Formulario enviado correctamente.');
+        document.getElementById('contactForm').reset(); // Limpia el formulario
+        modal.style.display = "none"; // Cierra el modal
+      } else {
+        alert('Hubo un error al enviar el formulario.');
+      }
+    }).catch(error => {
+      alert('Hubo un problema con el envío. Inténtalo de nuevo.');
+    });
   }
 });
