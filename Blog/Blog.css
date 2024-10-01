@@ -116,3 +116,7 @@ h1, h2 {
 .Post h2 a:hover {
     color: var(--accent-color); /* Color del acento cuando el mouse está sobre el enlace */
 }
+
+.center {
+    text-align: center;
+}
