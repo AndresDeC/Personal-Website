@@ -128,3 +128,60 @@
   .center {
     text-align: center;
   }
+
+  footer {
+    background-color: #121212; /* Fondo oscuro */
+    color: #f0f0f0; /* Color de texto claro */
+    padding: 20px 0;
+    text-align: center; /* Centra todo el contenido */
+    font-family: 'Roboto', sans-serif; /* Fuente */
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #FFCA28; /* Color para el texto del año y nombre */
+}
+
+footer a {
+    color: #f0f0f0;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #FFCA28; /* Cambia el color al pasar el ratón por los enlaces */
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.social-media img {
+    width: 40px;
+    height: 40px;
+}
+
+.social-media a:hover img {
+    transform: scale(1.1); /* Efecto al hacer hover sobre los íconos */
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    footer a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .social-media {
+        margin-top: 10px;
+    }
+}
