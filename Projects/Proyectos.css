@@ -1,18 +1,18 @@
 /* Colores base */
 :root {
   --primary-color: #4CAF50;
-  --secondary-color: #1a1a1a; /* Color oscuro principal para el sitio */
+  --secondary-color: #1a1a1a; 
   --text-color: #f0f0f0;
   --accent-color: #FFC107;
   --button-color: #1a73e8;
-  --footer-background: #cfddff; /* Fondo claro exclusivo para el footer */
+  --footer-background: #cfddff; 
 }
 
-/* Estilos generales */
+
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  background-color: var(--secondary-color); /* Fondo oscuro para el sitio */
+  background-color: var(--secondary-color); 
   color: var(--text-color);
   line-height: 1.6;
 }
@@ -111,24 +111,24 @@ body {
 
 /* Footer */
 footer {
-  background-color: var(--footer-background); /* Fondo claro exclusivo para el footer */
-  color: var(--secondary-color); /* Texto oscuro para contraste */
+  background-color: var(--footer-background);
+  color: var(--secondary-color); 
   padding: 20px;
   text-align: center;
 }
 
 footer a {
-  color: var(--button-color); /* Color de los enlaces */
+  color: var(--button-color); 
   text-decoration: none;
 }
 
 footer a:hover {
-  color: var(--primary-color); /* Color de los enlaces al pasar el ratón */
+  color: var(--primary-color); 
 }
 
 /* Íconos de redes sociales */
 .social-media img {
   width: 24px; 
   height: auto; 
-  filter: grayscale(100%); /* Opcional: un efecto en los íconos */
+  filter: grayscale(100%); 
 }
