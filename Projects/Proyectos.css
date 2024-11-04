@@ -107,4 +107,8 @@
   .post-header h1 a:hover {
     color: var(--button-color);
   }
-  
+
+.social-media img {
+  width: 24px; 
+  height: auto; 
+}
