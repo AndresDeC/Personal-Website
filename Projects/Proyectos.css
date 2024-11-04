@@ -1,17 +1,18 @@
 /* Colores base */
 :root {
   --primary-color: #4CAF50;
-  --secondary-color: #1a1a1a;
+  --secondary-color: #1a1a1a; /* Color oscuro principal para el sitio */
   --text-color: #f0f0f0;
   --accent-color: #FFC107;
   --button-color: #1a73e8;
+  --footer-background: #e0e0e0; /* Fondo claro exclusivo para el footer */
 }
 
 /* Estilos generales */
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  background-color: var(--secondary-color);
+  background-color: var(--secondary-color); /* Fondo oscuro para el sitio */
   color: var(--text-color);
   line-height: 1.6;
 }
@@ -110,8 +111,8 @@ body {
 
 /* Footer */
 footer {
-  background-color: #e0e0e0; /* Fondo claro para el footer */
-  color: var(--secondary-color); /* Color del texto oscuro para contraste */
+  background-color: var(--footer-background); /* Fondo claro exclusivo para el footer */
+  color: var(--secondary-color); /* Texto oscuro para contraste */
   padding: 20px;
   text-align: center;
 }
