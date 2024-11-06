@@ -12,15 +12,7 @@
         "see_projects": "Ver Proyectos",
         "footer_text": "�� 2024  |  Andrés Deandar",
         "privacy_policy": "Política de Privacidad",
-        "project1_title": "Mi Proyecto Perpetuo",
-        "project1_date": "Publicado el 23 de septiembre de 2024",
-        "project1_desc1": "Soy un programador apasionado por lo que hago. Este sitio web es uno de mis proyectos 'perpetuos', ya que le daré actualizaciones de manera constante. Aquí compartiré mis nuevos proyectos, ideas y pensamientos sobre tecnología, y también escribiré blogs sobre los temas que me inspiran.",
-        "project1_desc2": "Mi objetivo es que este sitio refleje mi crecimiento como desarrollador y que sea un lugar donde otros puedan inspirarse y aprender a lo largo del camino. Publicaré actualizaciones de proyectos, artículos sobre desarrollo web y Python, y contenido que espero motive a la gente a unirse a la industria tecnológica en Latinoamérica.",
-        "project1_desc3": "Sigue explorando y vuelve pronto para ver las novedades que iré subiendo.",
-        "project2_title": "GenAI",
-        "project2_date": "Próximamente",
-        "project2_desc1": "Este programa es basado por el arduo labor de un estudiante en encontrar buenas fuentes de investigación para proyectos, ensayos e incluso tesis en casos, el propósito es bajar la dificultad de encontrar fuentes, dar resumen de dichas fuentes y poner las referencias adecuadas. Buscamos no suplentar la investigación de los estudiantes sino que más bien apoyar a que sea una investigación sencilla y muy amigable para los estudiantes.",
-        "project2_desc2": "Aún no estoy decidido si hacerlo un negocio o pasarlo persona a persona, eso será anunciado después.",
+        
     },
     "en": {
         "home": "Home",
@@ -34,17 +26,7 @@
         "about_me": "I am a systems student and developer with experience in web projects and Python. My mission is to create solutions that make an impact and share my knowledge to inspire others in Latin America to join the tech world. I firmly believe in the power of technology as a tool for global change, especially artificial intelligence.",
         "see_projects": "See Projects",
         "footer_text": "�� 2024  |  Andrés Deandar",
-        "privacy_policy": "Privacy Policy",
-        "project1_title": "My Perpetual Project",
-        "project1_date": "Published on September 23, 2024",
-        "project1_desc1": "I am a passionate programmer. This website is one of my 'perpetual' projects, as I will give it constant updates. Here I will share my new projects, ideas, and thoughts on technology, and also write blogs about topics that inspire me.",
-        "project1_desc2": "My goal is for this site to reflect my growth as a developer and to be a place where others can be inspired and learn along the way. I will post project updates, articles on web development and Python, and content that I hope will motivate people to join the tech industry in Latin America.",
-        "project1_desc3": "Keep exploring and check back soon to see the updates I will be posting.",
-        "project2_title": "GenAI",
-        "project2_date": "Coming soon",
-        "project2_desc1": "This program is based on the hard work of a student finding good research sources for projects, essays, and even thesis cases. The purpose is to reduce the difficulty of finding sources, provide summaries of those sources, and give proper references. We do not aim to replace student research but to support a simple and friendly research experience.",
-        "project2_desc2": "I'm still undecided about making it a business or sharing it one-on-one; this will be announced later.",
-
+        "privacy_policy": "Privacy Policy"
     },
     "fr": {
         "home": "Accueil",
@@ -58,17 +40,7 @@
         "about_me": "Je suis étudiant en systèmes et développeur avec de l'expérience dans des projets Web et Python. Ma mission est de créer des solutions ayant un impact et de partager mes connaissances pour inspirer les autres en Amérique Latine à rejoindre le monde de la technologie. Je crois fermement au pouvoir de la technologie comme outil de changement mondial, en particulier l'intelligence artificielle.",
         "see_projects": "Voir les projets",
         "footer_text": "�� 2024  |  Andrés Deandar",
-        "privacy_policy": "Politique de confidentialité",
-        "project1_title": "Mon Projet Perpétuel",
-        "project1_date": "Publié le 23 septembre 2024",
-        "project1_desc1": "Je suis un programmeur passionné. Ce site Web est l'un de mes projets 'perpétuels', car je le mettrai à jour constamment. Ici, je partagerai mes nouveaux projets, idées et pensées sur la technologie, et j'écrirai également des blogs sur les sujets qui m'inspirent.",
-        "project1_desc2": "Mon objectif est que ce site reflète ma croissance en tant que développeur et soit un lieu où d'autres peuvent s'inspirer et apprendre en cours de route. Je publierai des mises à jour de projets, des articles sur le développement web et Python, et du contenu que j'espère motivera les gens à rejoindre l'industrie technologique en Amérique latine.",
-        "project1_desc3": "Continuez à explorer et revenez bientôt pour voir les nouveautés que je vais publier.",
-        "project2_title": "GenAI",
-        "project2_date": "Bientôt disponible",
-        "project2_desc1": "Ce programme est basé sur le travail acharné d'un étudiant pour trouver de bonnes sources de recherche pour des projets, des essais et même des thèses. L'objectif est de réduire la difficulté de trouver des sources, de fournir des résumés de ces sources et de donner les références appropriées. Nous ne visons pas à remplacer la recherche des étudiants, mais à soutenir une expérience de recherche simple et conviviale.",
-        "project2_desc2": "Je n'ai pas encore décidé si cela deviendra un business ou sera partagé individuellement; cela sera annoncé plus tard.",
-
+        "privacy_policy": "Politique de confidentialité"
     },
     "it": {
         "home": "Home",
@@ -82,17 +54,7 @@
         "about_me": "Sono uno studente di sistemi e sviluppatore con esperienza in progetti web e Python. La mia missione è creare soluzioni che abbiano un impatto e condividere le mie conoscenze per ispirare altri in America Latina ad entrare nel mondo della tecnologia. Credo fermamente nel potere della tecnologia come strumento di cambiamento globale, in particolare l'intelligenza artificiale.",
         "see_projects": "Vedi i progetti",
         "footer_text": "�� 2024  |  Andrés Deandar",
-        "privacy_policy": "Politica sulla privacy",
-        "project1_title": "Il mio progetto perpetuo",
-        "project1_date": "Pubblicato il 23 settembre 2024",
-        "project1_desc1": "Sono un programmatore appassionato di ciò che faccio. Questo sito web è uno dei miei progetti 'perpetui', poiché lo aggiornerò costantemente. Qui condividerò i miei nuovi progetti, idee e pensieri sulla tecnologia e scriverò anche blog su argomenti che mi ispirano.",
-        "project1_desc2": "Il mio obiettivo è che questo sito rifletta la mia crescita come sviluppatore e che sia un luogo dove gli altri possano trovare ispirazione e imparare lungo il percorso. Pubblicherò aggiornamenti su progetti, articoli su sviluppo web e Python, e contenuti che spero motivino le persone a entrare nell'industria tecnologica in America Latina.",
-        "project1_desc3": "Continua a esplorare e torna presto per vedere gli aggiornamenti che pubblicherò.",
-        "project2_title": "GenAI",
-        "project2_date": "In arrivo",
-        "project2_desc1": "Questo programma si basa sul duro lavoro di uno studente che cerca buone fonti di ricerca per progetti, saggi e anche tesi. Lo scopo è ridurre la difficoltà di trovare fonti, fornire riassunti di queste fonti e dare le giuste citazioni. Non intendiamo sostituire la ricerca degli studenti, ma piuttosto supportare un'esperienza di ricerca semplice e amichevole.",
-        "project2_desc2": "Non sono ancora sicuro se farlo diventare un business o condividerlo individualmente; questo sarà annunciato in seguito.",
-
+        "privacy_policy": "Politica sulla privacy"
     },
     "de": {
         "home": "Startseite",
@@ -106,17 +68,7 @@
         "about_me": "Ich bin ein Systemstudent und Entwickler mit Erfahrung in Webprojekten und Python. Meine Mission ist es, Lösungen zu schaffen, die einen Einfluss haben, und mein Wissen zu teilen, um andere in Lateinamerika zu inspirieren, sich der Technologiebranche anzuschließen. Ich glaube fest an die Macht der Technologie als Werkzeug für globalen Wandel, insbesondere in der Künstlichen Intelligenz.",
         "see_projects": "Projekte ansehen",
         "footer_text": "�� 2024  |  Andrés Deandar",
-        "privacy_policy": "Datenschutzrichtlinie",
-        "project1_title": "Mein perpetuelles Projekt",
-        "project1_date": "Veröffentlicht am 23. September 2024",
-        "project1_desc1": "Ich bin ein leidenschaftlicher Programmierer. Diese Website ist eines meiner 'perpetuellen' Projekte, da ich sie ständig aktualisieren werde. Hier werde ich meine neuen Projekte, Ideen und Gedanken über Technologie teilen und auch Blogs über Themen schreiben, die mich inspirieren.",
-        "project1_desc2": "Mein Ziel ist es, dass diese Seite mein Wachstum als Entwickler widerspiegelt und ein Ort ist, an dem sich andere inspirieren lassen und lernen können. Ich werde Projektupdates, Artikel über Webentwicklung und Python sowie Inhalte posten, die hoffentlich Menschen motivieren, der Tech-Industrie in Lateinamerika beizutreten.",
-        "project1_desc3": "Setze das Erkunden fort und komme bald zurück, um die Neuigkeiten zu sehen, die ich veröffentlichen werde.",
-        "project2_title": "GenAI",
-        "project2_date": "Kommt bald",
-        "project2_desc1": "Dieses Programm basiert auf der harten Arbeit eines Studenten, der gute Forschungsquellen für Projekte, Essays und sogar Abschlussarbeiten sucht. Der Zweck ist es, die Schwierigkeit beim Finden von Quellen zu verringern, Zusammenfassungen dieser Quellen zu liefern und die richtigen Referenzen anzugeben. Wir wollen die Forschung der Studenten nicht ersetzen, sondern eine einfache und benutzerfreundliche Forschungserfahrung unterstützen.",
-        "project2_desc2": "Ich bin noch unschlüssig, ob ich es zu einem Geschäft machen oder es individuell teilen werde. Dies wird später bekannt gegeben.",
-
+        "privacy_policy": "Datenschutzrichtlinie"
     }
 
 }
