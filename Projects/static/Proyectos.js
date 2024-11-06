@@ -3,12 +3,12 @@ async function changeLanguage(lang) {
         console.log(`Cargando idioma: ${lang}`);
 
         // Cargar el archivo languages.json
-        const response = await fetch(`/static/Proyectos.json`);
+        const response = await fetch('/static/Proyectos.json');
         if (!response.ok) {
             throw new Error(`No se pudo cargar el archivo Proyectos.json`);
         }
         const translations = await response.json();
-        console.log(translations); // Verificar qué traducciones se cargaron
+        console.log("Traducciones cargadas:", translations); // Log para verificar el contenido del archivo JSON
 
         // Verifica que el idioma seleccionado esté en las traducciones
         if (!translations[lang]) {
@@ -36,9 +36,6 @@ async function changeLanguage(lang) {
 
         // Actualizar contenido del footer
         document.getElementById("footer_text").innerHTML = translations[lang].footer_text;
-        document.getElementById("footer_contact").innerHTML = translations[lang].contact;
-        document.getElementById("footer_blog").innerHTML = translations[lang].blog;
-        document.getElementById("footer_privacy").innerHTML = translations[lang].privacy_policy;
 
         console.log(`Idioma cambiado a: ${lang}`);
 
@@ -48,17 +45,3 @@ async function changeLanguage(lang) {
         console.error("Error al cargar las traducciones:", error);
     }
 }
-
-// Función para detectar el idioma del navegador y cargar el idioma correspondiente
-function detectLanguage() {
-    const savedLang = localStorage.getItem("lang");
-    console.log(`Idioma guardado en localStorage: ${savedLang}`);
-    const userLang = savedLang || (navigator.language || navigator.userLanguage).split('-')[0];
-    
-    const lang = ["en", "es", "fr", "de", "it"].includes(userLang) ? userLang : "es";
-    console.log(`Idioma detectado: ${lang}`);
-    changeLanguage(lang);
-}
-
-// Ejecutar la detección del idioma cuando la página cargue
-window.onload = detectLanguage;
