@@ -2,7 +2,7 @@
 async function changeLanguage(lang) {
     try {
         // Cargar el archivo JSON correspondiente al idioma seleccionado
-        const response = await fetch(`/Web/static/${lang}.json`); // Asegúrate de que esta ruta sea correcta
+        const response = await fetch(`/Web/static/languages.json`); // Asegúrate de que esta ruta sea correcta
         const translations = await response.json();
 
         // Actualizar el contenido del HTML con las traducciones cargadas
