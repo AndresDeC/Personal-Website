@@ -1,4 +1,3 @@
-// Función para cargar y aplicar las traducciones según el idioma seleccionado
 async function changeLanguage(lang) {
     try {
         console.log(`Cargando idioma: ${lang}`);
@@ -9,6 +8,7 @@ async function changeLanguage(lang) {
             throw new Error(`No se pudo cargar el archivo Proyectos.json`);
         }
         const translations = await response.json();
+        console.log(translations); // Verificar qué traducciones se cargaron
 
         // Verifica que el idioma seleccionado esté en las traducciones
         if (!translations[lang]) {
@@ -52,6 +52,7 @@ async function changeLanguage(lang) {
 // Función para detectar el idioma del navegador y cargar el idioma correspondiente
 function detectLanguage() {
     const savedLang = localStorage.getItem("lang");
+    console.log(`Idioma guardado en localStorage: ${savedLang}`);
     const userLang = savedLang || (navigator.language || navigator.userLanguage).split('-')[0];
     
     const lang = ["en", "es", "fr", "de", "it"].includes(userLang) ? userLang : "es";
