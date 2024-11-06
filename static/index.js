@@ -16,9 +16,22 @@ async function changeLanguage(lang) {
         }
 
         // Actualizar el contenido del HTML con las traducciones cargadas
-        document.getElementById("intro").innerHTML = translations[lang].intro; // Usamos innerHTML para permitir etiquetas HTML
-        document.getElementById("paragraph").innerHTML = translations[lang].description; // Se asegura de usar "description"
-        document.getElementById("projects").innerHTML = translations[lang].see_projects;
+        document.getElementById("home").innerHTML = translations[lang].home;
+        document.getElementById("about").innerHTML = translations[lang].about;
+        document.getElementById("projects").innerHTML = translations[lang].projects;
+        document.getElementById("contact").innerHTML = translations[lang].contact;
+        document.getElementById("blog").innerHTML = translations[lang].blog;
+        document.getElementById("intro").innerHTML = translations[lang].intro;
+        document.getElementById("subheading").innerHTML = translations[lang].subheading;
+        document.getElementById("description").innerHTML = translations[lang].description;
+        document.getElementById("see_more").innerHTML = translations[lang].see_projects;
+        document.getElementById("about_title").innerHTML = translations[lang].about_me;
+        document.getElementById("about_me").innerHTML = translations[lang].about_me;
+        document.getElementById("see_projects").innerHTML = translations[lang].see_projects;
+        document.getElementById("footer_text").innerHTML = translations[lang].footer_text;
+        document.getElementById("footer_contact").innerHTML = translations[lang].contact;
+        document.getElementById("footer_blog").innerHTML = translations[lang].blog;
+        document.getElementById("footer_privacy").innerHTML = translations[lang].privacy_policy;
 
         console.log(`Idioma cambiado a: ${lang}`);
 

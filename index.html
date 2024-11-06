@@ -1,65 +1,51 @@
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <title>Andrés Deandar</title>
-    <link rel="stylesheet" href="/static/index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  </head>
-  <body>
+<!-- Barra de navegación -->
+<header id="nav">
+  <nav class="Navigation">
+    <ul>
+      <li><a href="#" id="home">Inicio</a></li>
+      <li><a href="/Sobre mi/About.html" id="about">Sobre mí</a></li>
+      <li><a href="/Projects/Proyectos.html" id="projects">Proyectos</a></li>
+      <li><a href="/Contacto/Contacto.html" id="contact">Contacto</a></li>
+      <li><a href="/Blog/Blog.html" id="blog">Blog</a></li>
+    </ul>
 
-    <!-- Barra de navegación -->
-    <header id="nav">
-      <nav class="Navigation">
-        <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="/Sobre mi/About.html">Sobre mí</a></li>
-          <li><a href="/Projects/Proyectos.html">Proyectos</a></li>
-          <li><a href="/Contacto/Contacto.html">Contacto</a></li>
-          <li><a href="/Blog/Blog.html">Blog</a></li>
-        </ul>
-
-        <!-- Botón de idioma -->
-        <div class="dropdown">
-          <button class="dropbtn">Idioma</button>
-          <div class="dropdown-content">
-            <a href="#" onclick="changeLanguage('es')">Español</a>
-            <a href="#" onclick="changeLanguage('en')">English</a>
-            <a href="#" onclick="changeLanguage('fr')">Français</a>
-            <a href="#" onclick="changeLanguage('de')">Deutsch</a>
-            <a href="#" onclick="changeLanguage('it')">Italiano</a>
-          </div>
-        </div>
-      </nav>
-    </header>
-
-    <!-- Sección hero -->
-    <section id="hero">
-      <div class="hero-text">
-        <h1 id="intro">Hola, soy <span>Andrés Deandar</span></h1>
-        <h2>Desarrollador en diferentes ramas</h2>
-        <p class="hero-description">Soy un programador apasionado por lo que hago. Este sitio web es uno de mis proyectos 'perpetuos', ya que le daré actualizaciones de manera constante, además de publicar proyectos y subir blogs.</p>
-        <a href="/Sobre mi/About.html" class="btn-primary">Conóceme más</a>
+    <!-- Botón de idioma -->
+    <div class="dropdown">
+      <button class="dropbtn" id="language">Idioma</button>
+      <div class="dropdown-content">
+        <a href="#" onclick="changeLanguage('es')">Español</a>
+        <a href="#" onclick="changeLanguage('en')">English</a>
+        <a href="#" onclick="changeLanguage('fr')">Français</a>
+        <a href="#" onclick="changeLanguage('de')">Deutsch</a>
+        <a href="#" onclick="changeLanguage('it')">Italiano</a>
       </div>
-    </section>
+    </div>
+  </nav>
+</header>
 
-    <!-- Sección sobre mí -->
-    <section id="about" class="container">
-      <h2>¿Quién soy?</h2>
-      <p id="paragraph">Soy un estudiante de sistemas y desarrollador con experiencia en proyectos web y Python. Mi misión es crear soluciones que impacten y compartir mi conocimiento para inspirar a otros en Latinoamérica a unirse al mundo de la tecnología. Creo firmemente en el poder de la tecnología como herramienta de cambio global en especial la inteligencia artificial.</p>
-      <a href="/Projects/Proyectos.html" class="btn-secondary" id="projects">Ver Proyectos</a>
-    </section>
+<!-- Sección hero -->
+<section id="hero">
+  <div class="hero-text">
+    <h1 id="intro">Hola, soy <span>Andrés Deandar</span></h1>
+    <h2 id="subheading">Desarrollador en diferentes ramas</h2>
+    <p class="hero-description" id="description">Soy un programador apasionado por lo que hago. Este sitio web es uno de mis proyectos 'perpetuos', ya que le daré actualizaciones de manera constante, además de publicar proyectos y subir blogs.</p>
+    <a href="/Sobre mi/About.html" class="btn-primary" id="see_more">Conóceme más</a>
+  </div>
+</section>
 
-    <!-- Pie de página -->
-    <footer>
-      <p>&#169; 2024 | Andrés Deandar</p>
-      <a href="/Contacto/Contacto.html">Contacto</a> | <a href="/Blog/Blog.html">Blog</a> | <a href="#">Política de Privacidad</a>
-      <div class="social-media">
-        <a href="https://github.com/ADCcodes"><img src="github-mark.png" alt="Github"></a>
-        <a href="https://www.linkedin.com/in/andr%C3%A9s-de%C3%A1ndar-/"><i class="fa-brands fa-linkedin"></i></a>
-      </div>
-    </footer>
+<!-- Sección sobre mí -->
+<section id="about" class="container">
+  <h2 id="about_title">¿Quién soy?</h2>
+  <p id="about_me">Soy un estudiante de sistemas y desarrollador con experiencia en proyectos web y Python. Mi misión es crear soluciones que impacten y compartir mi conocimiento para inspirar a otros en Latinoamérica a unirse al mundo de la tecnología. Creo firmemente en el poder de la tecnología como herramienta de cambio global en especial la inteligencia artificial.</p>
+  <a href="/Projects/Proyectos.html" class="btn-secondary" id="see_projects">Ver Proyectos</a>
+</section>
 
-    <script src="/static/index.js"></script>
-  </body>
-</html>
+<!-- Pie de página -->
+<footer>
+  <p id="footer_text">&#169; 2024 | Andrés Deandar</p>
+  <a href="/Contacto/Contacto.html" id="footer_contact">Contacto</a> | <a href="/Blog/Blog.html" id="footer_blog">Blog</a> | <a href="#" id="footer_privacy">Política de Privacidad</a>
+  <div class="social-media">
+    <a href="https://github.com/ADCcodes"><img src="github-mark.png" alt="Github"></a>
+    <a href="https://www.linkedin.com/in/andr%C3%A9s-de%C3%A1ndar-/"><i class="fa-brands fa-linkedin"></i></a>
+  </div>
+</footer>
