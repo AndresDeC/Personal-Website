@@ -17,8 +17,8 @@ async function changeLanguage(lang) {
 
         // Actualizar el contenido del HTML con las traducciones cargadas
         document.getElementById("intro").innerHTML = translations[lang].intro; // Usamos innerHTML para permitir etiquetas HTML
-        document.getElementById("paragraph").textContent = translations[lang].description; // Se asegura de usar "description"
-        document.getElementById("projects").textContent = translations[lang].see_projects;
+        document.getElementById("paragraph").innerHTML = translations[lang].description; // Se asegura de usar "description"
+        document.getElementById("projects").innerHTML = translations[lang].see_projects;
 
         console.log(`Idioma cambiado a: ${lang}`);
 
