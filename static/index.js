@@ -6,22 +6,10 @@ async function changeLanguage(lang) {
         const translations = await response.json();
 
         // Actualizar el contenido del HTML con las traducciones cargadas
-        document.getElementById("home").textContent = translations.home;
-        document.getElementById("about").textContent = translations.about;
-        document.getElementById("projects").textContent = translations.projects;
-        document.getElementById("contact").textContent = translations.contact;
-        document.getElementById("blog").textContent = translations.blog;
-        document.getElementById("intro").innerHTML = translations.intro;
-        document.getElementById("subheading").textContent = translations.subheading;
-        document.getElementById("description").textContent = translations.description;
-        document.getElementById("whoAmI").textContent = translations.about_me;
+        document.getElementById("intro").textContent = translations.intro;
         document.getElementById("paragraph").textContent = translations.paragraph;
-        document.getElementById("learnMore").textContent = translations.see_projects;
-        document.getElementById("footerText").textContent = translations.footer_text;
-        document.getElementById("contactLink").textContent = translations.contact;
-        document.getElementById("blogLink").textContent = translations.blog;
-        document.getElementById("privacyPolicyLink").textContent = translations.privacy_policy;
-        
+        document.getElementById("projects").textContent = translations.projects;
+
         // Guardar la preferencia de idioma en localStorage
         localStorage.setItem("lang", lang);
     } catch (error) {
@@ -33,7 +21,8 @@ async function changeLanguage(lang) {
 function detectLanguage() {
     const savedLang = localStorage.getItem("lang");
     const userLang = savedLang || (navigator.language || navigator.userLanguage).slice(0, 2);
-    const lang = ["en", "es", "fr", "it", "de"].includes(userLang) ? userLang : "en";
+    
+    const lang = ["en", "es", "fr", "de", "it"].includes(userLang) ? userLang : "es";
     changeLanguage(lang);
 }
 
