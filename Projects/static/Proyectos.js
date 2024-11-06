@@ -3,7 +3,7 @@ async function changeLanguage(lang) {
         console.log(`Cargando idioma: ${lang}`);
 
         // Cargar el archivo languages.json
-        const response = await fetch(`/static/Proyectos.json`);
+        const response = await fetch(`Projects/static/Proyectos.json`);
         if (!response.ok) {
             throw new Error(`No se pudo cargar el archivo Proyectos.json`);
         }
