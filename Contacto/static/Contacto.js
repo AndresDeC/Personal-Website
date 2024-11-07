@@ -33,7 +33,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     alert('Por favor, completa todos los campos.');
   } else {
     // Enviar el formulario usando fetch a Formspree
-    fetch('https://formspree.io/f/xxxxxx', {
+    fetch('https://formspree.io/f/meoqgrqv', {
       method: 'POST',
       body: new FormData(document.getElementById('contactForm')),
       headers: {
