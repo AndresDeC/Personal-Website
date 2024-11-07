@@ -12,25 +12,26 @@ async function changeLanguage(lang) {
 
         // Verifica que el idioma seleccionado esté en las traducciones
         if (!translations[lang]) {
-            throw new Error(`No se encontraron traducciones para el idioma: ${lang}`);
+            console.error(`No se encontraron traducciones para el idioma: ${lang}. Cargando el idioma por defecto.`);
+            lang = "es"; // Establecer idioma por defecto si no se encuentra el seleccionado
         }
 
         // Actualizar el contenido del HTML con las traducciones cargadas
-        document.getElementById("home").innerHTML = translations[lang].home;
-        document.getElementById("about").innerHTML = translations[lang].about;
-        document.getElementById("projects").innerHTML = translations[lang].projects;
-        document.getElementById("contact").innerHTML = translations[lang].contact;
-        document.getElementById("blog").innerHTML = translations[lang].blog;
-        document.getElementById("intro").innerHTML = translations[lang].intro;
-        document.getElementById("subheading").innerHTML = translations[lang].subheading;
-        document.getElementById("description").innerHTML = translations[lang].description;
-        document.getElementById("see_more").innerHTML = translations[lang].see_projects;
-        document.getElementById("about_title").innerHTML = translations[lang].about_me;
-        document.getElementById("see_projects").innerHTML = translations[lang].see_projects;
-        document.getElementById("footer_text").innerHTML = translations[lang].footer_text;
-        document.getElementById("footer_contact").innerHTML = translations[lang].contact;
-        document.getElementById("footer_blog").innerHTML = translations[lang].blog;
-        document.getElementById("footer_privacy").innerHTML = translations[lang].privacy_policy;
+        updateText("home", translations[lang].home);
+        updateText("about", translations[lang].about);
+        updateText("projects", translations[lang].projects);
+        updateText("contact", translations[lang].contact);
+        updateText("blog", translations[lang].blog);
+        updateText("intro", translations[lang].intro);
+        updateText("subheading", translations[lang].subheading);
+        updateText("description", translations[lang].description);
+        updateText("see_more", translations[lang].see_projects);
+        updateText("about_title", translations[lang].about_me);
+        updateText("see_projects", translations[lang].see_projects);
+        updateText("footer_text", translations[lang].footer_text);
+        updateText("footer_contact", translations[lang].contact);
+        updateText("footer_blog", translations[lang].blog);
+        updateText("footer_privacy", translations[lang].privacy_policy);
 
         console.log(`Idioma cambiado a: ${lang}`);
 
@@ -38,6 +39,16 @@ async function changeLanguage(lang) {
         localStorage.setItem("lang", lang);
     } catch (error) {
         console.error("Error al cargar las traducciones:", error);
+    }
+}
+
+// Función para actualizar el contenido solo si el elemento existe
+function updateText(id, text) {
+    const element = document.getElementById(id);
+    if (element) {
+        element.innerHTML = text;
+    } else {
+        console.warn(`El elemento con el ID "${id}" no se encuentra en el DOM.`);
     }
 }
 
