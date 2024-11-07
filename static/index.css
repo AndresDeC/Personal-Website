@@ -51,39 +51,77 @@
   }
   
   /* Sección de presentación (Hero) */
-  #hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('hero-background.jpg') center/cover no-repeat;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  
+  /* Sección de presentación (Hero) */
+#hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('hero-background.jpg') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero-text h1 {
+  font-size: 4em; /* Aumentado para una mejor visibilidad */
+  color: var(--text-color);
+  margin: 0;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Añadir sombra para mejorar legibilidad */
+}
+
+.hero-text h2 {
+  font-size: 2em; /* Ajuste del subtítulo para mejor contraste */
+  color: var(--accent-color);
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.hero-text p {
+  font-size: 1.2em;
+  margin: 20px 0;
+  line-height: 1.6;
+  color: var(--text-color);
+  max-width: 80%; /* Limitar el ancho del párrafo para evitar el texto largo */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-primary {
+  background-color: var(--button-color);
+  color: white;
+  padding: 15px 40px; /* Mayor espacio para un botón más visible */
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em; /* Aumentar tamaño de la fuente para mayor legibilidad */
+  transition: background-color 0.3s, transform 0.3s; /* Añadir animación de transformación */
+}
+
+.btn-primary:hover {
+  background-color: var(--accent-color);
+  transform: scale(1.05); /* Efecto de aumento de tamaño al hacer hover */
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
   .hero-text h1 {
-    font-size: 3em;
-    margin: 0;
+    font-size: 2.5em; /* Reducir tamaño en pantallas pequeñas */
   }
-  
+
+  .hero-text h2 {
+    font-size: 1.8em; /* Reducir tamaño del subtítulo */
+  }
+
   .hero-text p {
-    font-size: 1.5em;
-    margin: 20px 0;
+    font-size: 1.1em;
   }
-  
+
   .btn-primary {
-    background-color: var(--button-color);
-    color: white;
-    padding: 10px 30px;
-    border-radius: 50px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s;
+    padding: 12px 30px;
+    font-size: 1em; /* Ajuste de tamaño del botón */
   }
-  
-  .btn-primary:hover {
-    background-color: var(--accent-color);
-  }
-  
+}
+
   /* Sección de objetivos */
   .container {
     padding: 50px 20px;
