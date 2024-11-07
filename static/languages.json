@@ -68,6 +68,21 @@
         "see_projects": "Projekte ansehen",
         "footer_text": "�� 2024  |  Andrés Deandar",
         "privacy_policy": "Datenschutzrichtlinie"
-    }
+    },
+    "pt": {
+    "home": "Início",
+    "about": "Sobre mim",
+    "projects": "Projetos",
+    "contact": "Contato",
+    "blog": "Blog",
+    "intro": "Olá, sou <span>Andrés Deandar</span>",
+    "subheading": "Desenvolvedor de inteligência artificial e web",
+    "description": "Sou um programador apaixonado pelo que faço. Este site é um dos meus projetos 'perpétuos', pois estarei constantemente atualizando, além de publicar projetos e compartilhar blogs.",
+    "about_me": "Sou um estudante de sistemas e desenvolvedor com experiência em projetos web e Python. Minha missão é criar soluções impactantes e compartilhar meu conhecimento para inspirar outros na América Latina a se unirem ao mundo da tecnologia. Acredito firmemente no poder da tecnologia como uma ferramenta de mudança global, especialmente a inteligência artificial.",
+    "see_projects": "Ver Projetos",
+    "footer_text": "© 2024  |  Andrés Deandar",
+    "privacy_policy": "Política de Privacidade"
+}
+
 
 }

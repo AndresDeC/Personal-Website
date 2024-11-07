@@ -88,5 +88,24 @@
         "project2_desc2": "Ich bin noch nicht sicher, ob ich es zu einem Geschäft mache oder es persönlich teile; dies wird später bekannt gegeben.",
         "footer_text_proyectos": "© 2024 | Andrés Deandar",
         "privacy_policy_proyectos": "Datenschutzrichtlinie"
-    }
+    },
+    "pt": {
+    "home_proyectos": "Início",
+    "about_proyectos": "Sobre mim",
+    "projects_proyectos": "Projetos",
+    "contact_proyectos": "Contato",
+    "blog_proyectos": "Blog",
+    "project1_title": "Meu Projeto Perpétuo",
+    "project1_date": "Publicado em 23 de setembro de 2024",
+    "project1_desc1": "Sou um programador apaixonado pelo que faço. Este site é um dos meus projetos 'perpétuos', pois estarei constantemente atualizando. Aqui, compartilharei meus novos projetos, ideias e pensamentos sobre tecnologia, além de escrever blogs sobre os temas que me inspiram.",
+    "project1_desc2": "Meu objetivo é que este site reflita meu crescimento como desenvolvedor e que seja um lugar onde outros possam se inspirar e aprender ao longo do caminho. Publicarei atualizações de projetos, artigos sobre desenvolvimento web e Python, e conteúdos que espero motivem as pessoas a ingressarem na indústria de tecnologia na América Latina.",
+    "project1_desc3": "Continue explorando e volte em breve para ver as novidades que estarei publicando.",
+    "project2_title": "GenAI",
+    "project2_date": "Em breve",
+    "project2_desc1": "Este programa é baseado no árduo trabalho de um estudante para encontrar boas fontes de pesquisa para projetos, ensaios e até mesmo teses. O propósito é reduzir a dificuldade de encontrar fontes, fornecer resumos dessas fontes e formatar as referências adequadas. Nosso objetivo não é substituir a pesquisa dos estudantes, mas apoiar para que seja um processo simples e amigável para eles.",
+    "project2_desc2": "Ainda não decidi se farei deste programa um negócio ou se será passado de pessoa para pessoa; isso será anunciado posteriormente.",
+    "footer_text_proyectos": "© 2024 | Andrés Deandar",
+    "privacy_policy_proyectos": "Política de Privacidade"
+}
+
 }

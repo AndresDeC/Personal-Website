@@ -47,7 +47,7 @@ function detectLanguage() {
     const savedLang = localStorage.getItem("lang");
     const userLang = savedLang || (navigator.language || navigator.userLanguage).slice(0, 2);
     
-    const lang = ["en", "es", "fr", "de", "it"].includes(userLang) ? userLang : "es";
+    const lang = ["en", "es", "fr", "de", "it", "pt"].includes(userLang) ? userLang : "es";
     console.log(`Idioma detectado: ${lang}`);
     changeLanguage(lang);
 }
