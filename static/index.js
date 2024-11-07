@@ -17,6 +17,7 @@ async function changeLanguage(lang) {
 
         // Actualizar el contenido del HTML con las traducciones cargadas
         document.getElementById("home").innerHTML = translations[lang].home;
+        document.getElementById("about").innerHTML = translations[lang].about;
         document.getElementById("projects").innerHTML = translations[lang].projects;
         document.getElementById("contact").innerHTML = translations[lang].contact;
         document.getElementById("blog").innerHTML = translations[lang].blog;
@@ -25,7 +26,6 @@ async function changeLanguage(lang) {
         document.getElementById("description").innerHTML = translations[lang].description;
         document.getElementById("see_more").innerHTML = translations[lang].see_projects;
         document.getElementById("about_title").innerHTML = translations[lang].about_me;
-        document.getElementById("about_me").innerHTML = translations[lang].about_me;
         document.getElementById("see_projects").innerHTML = translations[lang].see_projects;
         document.getElementById("footer_text").innerHTML = translations[lang].footer_text;
         document.getElementById("footer_contact").innerHTML = translations[lang].contact;
