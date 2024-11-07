@@ -4,7 +4,7 @@ async function changeLanguage(lang) {
         console.log(`Cargando idioma: ${lang}`);
 
         // Cargar el archivo languages.json
-        const response = await fetch(`/static/languages.json`);
+        const response = await fetch('/static/languages.json');
         if (!response.ok) {
             throw new Error(`No se pudo cargar el archivo languages.json`);
         }
@@ -16,30 +16,28 @@ async function changeLanguage(lang) {
             lang = "es"; // Establecer idioma por defecto si no se encuentra el seleccionado
         }
 
-        // Asegurarse de que el DOM esté completamente cargado antes de realizar cambios
-        document.addEventListener("DOMContentLoaded", () => {
-            // Actualizar el contenido del HTML con las traducciones cargadas
-            updateText("home", translations[lang].home);
-            updateText("about", translations[lang].about);
-            updateText("projects", translations[lang].projects);
-            updateText("contact", translations[lang].contact);
-            updateText("blog", translations[lang].blog);
-            updateText("intro", translations[lang].intro);
-            updateText("subheading", translations[lang].subheading);
-            updateText("description", translations[lang].description);
-            updateText("see_more", translations[lang].see_projects);
-            updateText("about_title", translations[lang].about_me);
-            updateText("see_projects", translations[lang].see_projects);
-            updateText("footer_text", translations[lang].footer_text);
-            updateText("footer_contact", translations[lang].contact);
-            updateText("footer_blog", translations[lang].blog);
-            updateText("footer_privacy", translations[lang].privacy_policy);
+        // Actualizar el contenido del HTML con las traducciones cargadas
+        updateText("home", translations[lang].home);
+        updateText("about", translations[lang].about);
+        updateText("projects", translations[lang].projects);
+        updateText("contact", translations[lang].contact);
+        updateText("blog", translations[lang].blog);
+        updateText("intro", translations[lang].intro);
+        updateText("subheading", translations[lang].subheading);
+        updateText("description", translations[lang].description);
+        updateText("see_more", translations[lang].see_projects);
+        updateText("about_title", translations[lang].about_me);
+        updateText("see_projects", translations[lang].see_projects);
+        updateText("footer_text", translations[lang].footer_text);
+        updateText("footer_contact", translations[lang].contact);
+        updateText("footer_blog", translations[lang].blog);
+        updateText("footer_privacy", translations[lang].privacy_policy);
 
-            console.log(`Idioma cambiado a: ${lang}`);
+        console.log(`Idioma cambiado a: ${lang}`);
 
-            // Guardar la preferencia de idioma en localStorage
-            localStorage.setItem("lang", lang);
-        });
+        // Guardar la preferencia de idioma en localStorage
+        localStorage.setItem("lang", lang);
+
     } catch (error) {
         console.error("Error al cargar las traducciones:", error);
     }
