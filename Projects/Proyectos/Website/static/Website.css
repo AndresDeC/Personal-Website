@@ -1,100 +1,280 @@
 /* Colores base */
 :root {
-    --primary-color: #4CAF50;
-    --secondary-color: #1a1a1a;
-    --text-color: #f0f0f0;
-    --accent-color: #FFC107;
-    --button-color: #1a73e8;
-  }
-  
-  /* Estilos generales */
-  body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    background-color: var(--secondary-color);
-    color: var(--text-color);
-    line-height: 1.6;
-  }
-  
-  /* Barra de navegación */
-  #nav {
-    background-color: #121212;
-    padding: 10px 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-  }
-  
+  --primary-color: #4CAF50;
+  --secondary-color: #1a1a1a;
+  --text-color: #f0f0f0;
+  --accent-color: #FFC107;
+  --button-color: #1a73e8;
+}
+
+/* Estilos generales */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* Barra de navegación */
+#nav {
+  background-color: #121212;
+  padding: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.Navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.Navigation li {
+  margin: 0 15px;
+}
+
+.Navigation a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: bold;
+  padding: 10px 0;
+  transition: color 0.3s;
+}
+
+.Navigation a:hover {
+  color: var(--primary-color);
+}
+
+/* Sección de presentación (Hero) */
+/* Sección de presentación (Hero) */
+#hero {
+background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('hero-background.jpg') center/cover no-repeat;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 0 20px;
+}
+
+.hero-text h1 {
+font-size: 4em; /* Aumentado para una mejor visibilidad */
+color: var(--text-color);
+margin: 0;
+text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Añadir sombra para mejorar legibilidad */
+}
+
+.hero-text h2 {
+font-size: 2em; /* Ajuste del subtítulo para mejor contraste */
+color: var(--accent-color);
+margin-top: 10px;
+font-weight: 400;
+}
+
+.hero-text p {
+font-size: 1.2em;
+margin: 20px 0;
+line-height: 1.6;
+color: var(--text-color);
+max-width: 80%; /* Limitar el ancho del párrafo para evitar el texto largo */
+margin-left: auto;
+margin-right: auto;
+}
+
+.btn-primary {
+background-color: var(--button-color);
+color: white;
+padding: 15px 40px; /* Mayor espacio para un botón más visible */
+border-radius: 50px;
+text-decoration: none;
+font-weight: bold;
+font-size: 1.1em; /* Aumentar tamaño de la fuente para mayor legibilidad */
+transition: background-color 0.3s, transform 0.3s; /* Añadir animación de transformación */
+}
+
+.btn-primary:hover {
+background-color: var(--accent-color);
+transform: scale(1.05); /* Efecto de aumento de tamaño al hacer hover */
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+.hero-text h1 {
+  font-size: 2.5em; /* Reducir tamaño en pantallas pequeñas */
+}
+
+.hero-text h2 {
+  font-size: 1.8em; /* Reducir tamaño del subtítulo */
+}
+
+.hero-text p {
+  font-size: 1.1em;
+}
+
+.btn-primary {
+  padding: 12px 30px;
+  font-size: 1em; /* Ajuste de tamaño del botón */
+}
+}
+
+/* Sección de objetivos */
+.container {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+p {
+  font-size: 1.2em;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
   .Navigation ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .Navigation li {
-    margin: 0 15px;
-  }
-  
-  .Navigation a {
-    text-decoration: none;
-    color: var(--text-color);
-    font-weight: bold;
-    padding: 10px 0;
-    transition: color 0.3s;
-  }
-  
-  .Navigation a:hover {
-    color: var(--primary-color);
-  }
-  
-  /* Sección estilo blog */
-  #blog-entry {
-    background-color: #222;
-    padding: 50px 20px;
-  }
-  
-  .post {
-    background-color: #333;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-  }
-  
-  .post-header {
+    flex-direction: column;
     text-align: center;
-    margin-bottom: 20px;
   }
-  
-  .post-header h1 {
-    color: var(--primary-color);
+
+  .hero-text h1 {
     font-size: 2.5em;
   }
-  
-  .post-date {
-    font-size: 0.9em;
-    color: #999;
-    margin-top: -10px;
-  }
-  
-  .post-content p {
+
+  .hero-text p {
     font-size: 1.2em;
-    margin-bottom: 20px;
+  }
+
+  .btn-primary {
+    padding: 10px 20px;
   }
   
-  .post-content p:last-child {
-    margin-bottom: 0;
+}
+footer {
+  background-color: #121212; /* Fondo oscuro */
+  color: #f0f0f0; /* Color de texto claro */
+  padding: 20px 0;
+  text-align: center; /* Centra todo el contenido */
+  font-family: 'Roboto', sans-serif; /* Fuente */
+}
+
+footer p {
+  margin: 10px 0;
+  font-size: 1em;
+  color: #FFCA28; /* Color para el texto del año y nombre */
+}
+
+footer a {
+  color: #f0f0f0;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1em;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #FFCA28; /* Cambia el color al pasar el ratón por los enlaces */
+}
+
+.social-media {
+  margin-top: 20px;
+}
+
+.social-media a {
+  display: inline-block;
+  margin: 0 10px;
+  transition: transform 0.3s;
+}
+
+.social-media img {
+  width: 40px;
+  height: 40px;
+}
+
+.social-media a:hover img {
+  transform: scale(1.1); /* Efecto al hacer hover sobre los íconos */
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  footer a {
+      display: block;
+      margin: 10px 0;
   }
-  
-  @media (max-width: 768px) {
-    .post-header h1 {
-      font-size: 2em;
-    }
-  
-    .post-content p {
-      font-size: 1.1em;
-    }
+
+  .social-media {
+      margin-top: 10px;
   }
-  
+}
+/* Dropdown de idiomas */
+.dropdown {
+position: relative;
+display: inline-block;
+float: right; /* Asegura que se alinee a la derecha */
+margin-top: 10px;
+}
+
+.dropbtn {
+background-color: var(--primary-color);
+color: var(--text-color);
+padding: 10px 20px;
+font-size: 1em;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #ffffff;
+box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+border-radius: 5px;
+min-width: 160px;
+z-index: 1;
+}
+
+.dropdown-content a {
+color: var(--secondary-color); /* Color oscuro para los enlaces */
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+font-weight: bold;
+}
+
+.dropdown-content a:hover {
+background-color: var(--primary-color); /* Efecto de hover */
+color: var(--text-color); /* Cambio de color de texto al hacer hover */
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropdown:hover .dropbtn {
+background-color: var(--accent-color); /* Cambio de color en hover */
+}
+
+/* Responsivo: Botón de idioma ajustado en pantallas pequeñas */
+@media (max-width: 768px) {
+.dropdown {
+    float: none; /* Centrado del dropdown en pantallas pequeñas */
+    margin-top: 10px;
+}
+
+.dropbtn {
+    font-size: 1em;
+    padding: 8px 15px;
+}
+}
+
