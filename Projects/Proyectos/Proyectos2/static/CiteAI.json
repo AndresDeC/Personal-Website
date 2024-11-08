@@ -1,0 +1,75 @@
+{
+    "es": {
+        "title_citeai": "GenAI",
+        "description_citeai": "Este es mi proyecto en inteligencia artificial generativa el cual se basa en poder crear por redes neuronales sus propias respuestas a diferentes preguntas. Describo los siguientes pasos:",
+        "step1_citeai": "1. Web scraping: La IA podrá buscar información en sitios webs y poder dar respuestas con buenas fuentes",
+        "step2_citeai": "2. RefAI: La IA aprenderá a hacer referencias en diferentes estilos y siempre buscar referencias recientes y actualizadas",
+        "step3_citeai": "3. Genera contenido en texto que podría ayudar a estudiantes e investigadores en poder entender un tema de manera sencilla por medio de resúmenes",
+        "home_citeai": "Inicio",
+        "about_citeai": "Sobre mí",
+        "projects_citeai": "Proyectos",
+        "contact_citeai": "Contacto",
+        "blog_citeai": "Blog"
+    },
+    "en": {
+        "title_citeai": "GenAI",
+        "description_citeai": "This is my generative AI project based on creating neural network-based responses to various questions. Here are the steps:",
+        "step1_citeai": "1. Web scraping: The AI can search for information on websites and provide answers with reliable sources",
+        "step2_citeai": "2. RefAI: The AI will learn to create references in different styles and always seek recent, updated sources",
+        "step3_citeai": "3. Generates text content that can help students and researchers understand topics easily through summaries",
+        "home_citeai": "Home",
+        "about_citeai": "About me",
+        "projects_citeai": "Projects",
+        "contact_citeai": "Contact",
+        "blog_citeai": "Blog"
+    },
+    "fr": {
+        "title_citeai": "GenAI",
+        "description_citeai": "Ceci est mon projet d'IA générative basé sur la création de réponses par réseaux neuronaux à différentes questions. Voici les étapes:",
+        "step1_citeai": "1. Exploration Web : L'IA peut rechercher des informations sur des sites Web et fournir des réponses avec des sources fiables",
+        "step2_citeai": "2. RefAI : L'IA apprendra à créer des références dans différents styles et recherchera toujours des sources récentes et mises à jour",
+        "step3_citeai": "3. Génère du contenu textuel qui peut aider les étudiants et les chercheurs à comprendre un sujet facilement grâce à des résumés",
+        "home_citeai": "Accueil",
+        "about_citeai": "À propos de moi",
+        "projects_citeai": "Projets",
+        "contact_citeai": "Contact",
+        "blog_citeai": "Blog"
+    },
+    "de": {
+        "title_citeai": "GenAI",
+        "description_citeai": "Dies ist mein generatives KI-Projekt, das darauf basiert, neuronale Netzwerke zur Beantwortung verschiedener Fragen einzusetzen. Die Schritte sind wie folgt:",
+        "step1_citeai": "1. Web Scraping: Die KI kann Informationen auf Websites suchen und Antworten mit zuverlässigen Quellen liefern",
+        "step2_citeai": "2. RefAI: Die KI lernt, Referenzen in verschiedenen Stilen zu erstellen und sucht immer nach aktuellen, verlässlichen Quellen",
+        "step3_citeai": "3. Generiert Textinhalte, die Studierenden und Forschern helfen können, Themen einfach durch Zusammenfassungen zu verstehen",
+        "home_citeai": "Startseite",
+        "about_citeai": "Über mich",
+        "projects_citeai": "Projekte",
+        "contact_citeai": "Kontakt",
+        "blog_citeai": "Blog"
+        },
+    "it": {
+        "title_citeai": "GenAI",
+        "description_citeai": "Questo è il mio progetto di IA generativa, basato sulla creazione di risposte tramite reti neurali a diverse domande. I passaggi sono i seguenti:",
+        "step1_citeai": "1. Web scraping: L'IA può cercare informazioni sui siti web e fornire risposte con fonti affidabili",
+        "step2_citeai": "2. RefAI: L'IA imparerà a creare riferimenti in stili diversi e cercherà sempre fonti recenti e aggiornate",
+        "step3_citeai": "3. Genera contenuti testuali che possono aiutare studenti e ricercatori a comprendere facilmente un argomento tramite riassunti",
+        "home_citeai": "Home",
+        "about_citeai": "Chi sono",
+        "projects_citeai": "Progetti",
+        "contact_citeai": "Contatto",
+        "blog_citeai": "Blog"
+        },
+    "pt": {
+        "title_citeai": "GenAI",
+        "description_citeai": "Este é o meu projeto de IA generativa, baseado em criar respostas a várias perguntas por meio de redes neurais. Os passos são os seguintes:",
+        "step1_citeai": "1. Web scraping: A IA pode buscar informações em sites e fornecer respostas com fontes confiáveis",
+        "step2_citeai": "2. RefAI: A IA aprenderá a fazer referências em diferentes estilos e buscará sempre fontes recentes e atualizadas",
+        "step3_citeai": "3. Gera conteúdo em texto que pode ajudar estudantes e pesquisadores a entender um tema facilmente por meio de resumos",
+        "home_citeai": "Início",
+        "about_citeai": "Sobre mim",
+        "projects_citeai": "Projetos",
+        "contact_citeai": "Contato",
+        "blog_citeai": "Blog"
+        }
+    
+}
