@@ -15,14 +15,14 @@ const App: React.FC = () => {
         <div className="flex items-center gap-6">
           {/* LINKS SOCIALES NAV */}
           <div className="hidden md:flex gap-6 text-[10px] font-bold text-slate-400 uppercase tracking-[0.3em]">
-            <a href="https://github.com/tu-usuario" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">GitHub</a>
-            <a href="https://linkedin.com/in/tu-perfil" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">LinkedIn</a>
+            <a href="https://github.com/AndresDeC " target="_blank" rel="noreferrer" className="hover:text-white transition-colors">GitHub</a>
+            <a href="https://www.linkedin.com/in/andres-deandar-/" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">LinkedIn</a>
           </div>
 
           {/* BOTÓN DESCARGA CV */}
           <a 
-            href="/CV_Andres_Deandar.pdf" 
-            download="CV_Andres_Deandar.pdf"
+            href="/CV_PDF.pdf" 
+            download="CV_PDF.pdf"
             className="px-5 py-2.5 bg-blue-600 hover:bg-blue-500 text-white rounded-full transition-all flex items-center gap-2 shadow-[0_0_20px_rgba(37,99,235,0.3)] text-[10px] font-bold uppercase tracking-widest"
           >
             <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
