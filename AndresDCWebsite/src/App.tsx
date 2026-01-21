@@ -189,9 +189,6 @@ const App: React.FC = () => {
         </div>
         
         <div className="flex flex-col items-center md:items-end gap-2">
-          <a href="mailto:adc.030328@gmail.com" className="text-slate-400 hover:text-blue-400 text-xs font-bold uppercase tracking-widest transition-colors border-b border-slate-800 pb-1">
-            Trabajemos juntos →
-          </a>
           <p className="text-slate-600 text-[10px] italic">"Ingeniería impulsada por la disciplina y el servicio en equipo."</p>
         </div>
       </footer>
