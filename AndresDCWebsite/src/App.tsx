@@ -262,7 +262,7 @@ export default function App() {
               </p>
             </div>
             <div className="flex flex-wrap gap-2">
-              {["JS", "CSS3", "HTML5", "Maps API"].map(tag => (
+              {["JS", "CSS3", "HTML5", "CMS Sanity"].map(tag => (
                 <span key={tag} className="text-[10px] font-bold uppercase px-3 py-1 bg-slate-950 rounded-lg text-slate-500 border border-slate-800">{tag}</span>
               ))}
             </div>
