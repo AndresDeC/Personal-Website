@@ -25,7 +25,7 @@ const content = {
       wcp: { name: "World Cup Planner", desc: "Planeador integral para el mundial. Integración de", bold: "Google Auth", end: "y conexión con Google Flights & Hotels." },
       wth: { name: "Word-to-HTML", desc: "Motor de conversión que reduce el tiempo de desarrollo en un", bold: "60%", end: ". Enfocado en la automatización editorial.", badge: "En vivo" },
       stackr: { name: "Stackr", desc: "CLI tool que genera proyectos con tu stack preferido y", bold: "recuerda tus preferencias", end: ". Open source.", badge: "Open Source" },
-      velox: { name: "Velox Clothing", desc: "E-commerce fullstack con geolocalización mediante la", bold: "API de Google Maps", end: "." },
+      Exatec: { name: "Exatec empresarial Monterrey", desc: "Sitio web de club empresarial con formulario y CMS Sanity", bold: "Formulario y API Sanity CMS", end: "." },
     },
     footer: { copy: "© 2026 Andrés Deandar", quote: '"Ingeniería impulsada por la disciplina y el servicio en equipo."' }
   },
@@ -48,7 +48,7 @@ const content = {
       wcp: { name: "World Cup Planner", desc: "Comprehensive World Cup planner with", bold: "Google Auth", end: "integration and Google Flights & Hotels connection." },
       wth: { name: "Word-to-HTML", desc: "Conversion engine that reduces development time by", bold: "60%", end: ". Focused on editorial automation.", badge: "Live" },
       stackr: { name: "Stackr", desc: "CLI tool that scaffolds projects with your preferred stack and", bold: "remembers your preferences", end: ". Open source.", badge: "Open Source" },
-      velox: { name: "Velox Clothing", desc: "Fullstack e-commerce with geolocation via the", bold: "Google Maps API", end: "." },
+      Exatec: { name: "Exatec", desc: "Webssite with Sanity CMS made in Astro", bold: "Sanity APIGoogle Maps API", end: "." },
     },
     footer: { copy: "© 2026 Andrés Deandar", quote: '"Engineering driven by discipline and team service."' }
   }
@@ -210,7 +210,7 @@ export default function App() {
                   <h3 className="text-3xl font-bold group-hover:text-blue-400 transition-colors tracking-tight">{t.projects.wth.name}</h3>
                   <span className="text-[10px] font-bold uppercase px-2 py-0.5 bg-green-500/10 text-green-400 border border-green-500/20 rounded-full mt-1 inline-block">{t.projects.wth.badge}</span>
                 </div>
-                <a href="https://wordtocleanhtml.vercel.app/" target="_blank" rel="noreferrer" className="bg-white/5 p-3 rounded-full hover:bg-blue-500 transition-all">
+                <a href="https://www.wordtocleanhtml.com/" target="_blank" rel="noreferrer" className="bg-white/5 p-3 rounded-full hover:bg-blue-500 transition-all">
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
                 </a>
               </div>
@@ -248,17 +248,17 @@ export default function App() {
             </div>
           </div>
 
-          {/* Velox Clothing */}
+          {/* Exatec */}
           <div className="group p-8 border border-slate-800 rounded-[32px] bg-slate-900/20 hover:border-blue-500/40 transition-all duration-500 flex flex-col justify-between">
             <div>
               <div className="flex justify-between items-start mb-6">
-                <h3 className="text-3xl font-bold group-hover:text-blue-400 transition-colors tracking-tight">{t.projects.velox.name}</h3>
-                <a href="https://velox-clothing.netlify.app/" target="_blank" rel="noreferrer" className="bg-white/5 p-3 rounded-full hover:bg-blue-500 transition-all">
+                <h3 className="text-3xl font-bold group-hover:text-blue-400 transition-colors tracking-tight">{t.projects.exatec.name}</h3>
+                <a href="https://clubexatecempresarial.com/" target="_blank" rel="noreferrer" className="bg-white/5 p-3 rounded-full hover:bg-blue-500 transition-all">
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
                 </a>
               </div>
               <p className="text-slate-400 text-lg leading-relaxed mb-8">
-                {t.projects.velox.desc} <span className="text-white">{t.projects.velox.bold}</span> {t.projects.velox.end}
+                {t.projects.exatec.desc} <span className="text-white">{t.projects.velox.bold}</span> {t.projects.exatec.end}
               </p>
             </div>
             <div className="flex flex-wrap gap-2">
