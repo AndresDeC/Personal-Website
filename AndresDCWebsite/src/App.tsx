@@ -25,7 +25,7 @@ const content = {
       wcp: { name: "World Cup Planner", desc: "Planeador integral para el mundial. Integración de", bold: "Google Auth", end: "y conexión con Google Flights & Hotels." },
       wth: { name: "Word-to-HTML", desc: "Motor de conversión que reduce el tiempo de desarrollo en un", bold: "60%", end: ". Enfocado en la automatización editorial.", badge: "En vivo" },
       stackr: { name: "Stackr", desc: "CLI tool que genera proyectos con tu stack preferido y", bold: "recuerda tus preferencias", end: ". Open source.", badge: "Open Source" },
-      Exatec: { name: "Exatec empresarial Monterrey", desc: "Sitio web de club empresarial con formulario y CMS Sanity", bold: "Formulario y API Sanity CMS", end: "." },
+      exatec: { name: "Exatec empresarial Monterrey", desc: "Sitio web de club empresarial con formulario y CMS Sanity", bold: "Formulario y API Sanity CMS", end: "." },
     },
     footer: { copy: "© 2026 Andrés Deandar", quote: '"Ingeniería impulsada por la disciplina y el servicio en equipo."' }
   },
@@ -48,7 +48,7 @@ const content = {
       wcp: { name: "World Cup Planner", desc: "Comprehensive World Cup planner with", bold: "Google Auth", end: "integration and Google Flights & Hotels connection." },
       wth: { name: "Word-to-HTML", desc: "Conversion engine that reduces development time by", bold: "60%", end: ". Focused on editorial automation.", badge: "Live" },
       stackr: { name: "Stackr", desc: "CLI tool that scaffolds projects with your preferred stack and", bold: "remembers your preferences", end: ". Open source.", badge: "Open Source" },
-      Exatec: { name: "Exatec", desc: "Webssite with Sanity CMS made in Astro", bold: "Sanity APIGoogle Maps API", end: "." },
+      exatec: { name: "Exatec Empresarial", desc: "Website with Sanity CMS made in Astro with", bold: "Sanity CMS & Google Maps API", end: "." },
     },
     footer: { copy: "© 2026 Andrés Deandar", quote: '"Engineering driven by discipline and team service."' }
   }
@@ -258,7 +258,7 @@ export default function App() {
                 </a>
               </div>
               <p className="text-slate-400 text-lg leading-relaxed mb-8">
-                {t.projects.exatec.desc} <span className="text-white">{t.projects.velox.bold}</span> {t.projects.exatec.end}
+                {t.projects.exatec.desc} <span className="text-white">{t.projects.exatec.bold}</span> {t.projects.exatec.end}
               </p>
             </div>
             <div className="flex flex-wrap gap-2">
